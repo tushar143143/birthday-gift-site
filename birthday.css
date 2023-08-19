@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    /* background-color: #A2B2FF; */
+    background: linear-gradient(rgb(69, 189, 236),rgb(236, 108, 108));
+    text-shadow: 1px 1px 5px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainimage {
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid #efb0c9;
+}
+.h2,.h4{
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.gift-image,.gift-image2,.gift-image3,.gift-image4{
+    margin: 0 auto;
+    background-image: url(space.jpg);
+    /* background: linear-gradient(rgb(234, 5, 241),rgb(0, 26, 255)); */
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 4px;
+}
+div.gift-image:hover{
+    background-image: url(tushar.jpeg);
+}
+div.gift-image2:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR0FLRDefKSd0k2Y25xbThQpIyA9ec2uFvYQ&usqp=CAU);
+}
+.gift-image3:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo_4o-TxECDO8bCJZDVbaNa1eRh8w3BnecpWF21DaL_7j9vn_2db4cIdTXjbgRgoZMiYA&usqp=CAU);
+}
+.gift-image4:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYd1tyqkaQW-qciJVkRgp7aM2XJMkhp1tMbw&usqp=CAU);
+}
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto
+}
+a{
+    color: aliceblue;
+}
+
+
